@@ -1,5 +1,5 @@
 
-### 1. **Setup**
+### Setup
 
 ```sh
 npx gatsby new dob-home https://github.com/eif0/dob-home
@@ -10,15 +10,15 @@ npx gatsby new dob-home https://github.com/eif0/dob-home
 cd dob-home
 ```
 
-### 3. **Run and modify**
+### Run
 
 Start: `npm run develop`.
 
 Browse `http://localhost:8000`
 
-Gatsby starter configured with a Gatsby theme. Tthis [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
+## Use and modify
 
-## Using and modifying
+this [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
 
 This guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/) helps understand how to customize the underlying theme
 
@@ -26,7 +26,7 @@ This project creates a new Gatsby site that installs and configures the theme [`
 
 Check README and other files to see available options and how to shadow the various components including Theme UI. Generally speaking your files should go in `src/@lekoarts/gatsby-theme-cara/` to shadow/override files. The Theme UI config can be configured by shadowing its files in `src/gatsby-plugin-theme-ui/`.
 
-### Changing content
+### Custom content
 
 The content of this project is defined in four `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. This starter has overridden all files for you already.
 
@@ -40,15 +40,12 @@ This project is my entry to Adobe's #ChallengeYourPerspective contest.
 </ProjectCard>
 ```
 
-### Change your `static` folder
+### Change the `static` folder
 
 The `static` folder contains the icons, social media images and `robots.txt`. Don't forget to change these files, too! You can use [Real Favicon Generator](https://realfavicongenerator.net/) to generate the image files inside `static`.
 
-## Questions or problems?
 
-If you have a specific question about this project, you can head to the [GitHub Discussions](https://github.com/LekoArts/gatsby-themes/discussions) of the repository.
-
-## Learning Gatsby
+## Gatsby
 
 Full documentation for Gatsby lives [on Gatsby's website](https://www.gatsbyjs.com/).
 
